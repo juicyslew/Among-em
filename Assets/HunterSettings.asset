@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c1c592c12e9724d93470c82a28d2f1, type: 3}
+  m_Name: HunterSettings
+  m_EditorClassIdentifier: 
+  walkacc: 80
+  searchFieldOfView: 0.3
+  searchDist: 40
+  avoidFieldOfView: 0.6
+  targetingStrengthRange: {x: 0, y: 0.4}
+  targetingEbbFlowSpeed: 6
+  targetingInAvoidanceStrengthRange: {x: 0, y: 0.1}
+  targetingInAvoidanceEbbFlowSpeed: 3.1415927
+  intentSteeringStrength: 60
+  targetingInAvoidanceWeight: 0.5
+  targetPingRandomOffset: 5
+  targetPingGrowthRate: 2
+  chaseStrength: 20
+  targetInsidePingStrengthMult: 1
+  searchSpeedMult: 1
+  susCapacity: 1
+  susResetInterval: 1
+  susPercentage: 0.2
+  stillSusRate: 0.01
+  NPCSusRate: 0.02
+  CrouchSusRate: 0.05
+  RunSusRate: 250
